@@ -1,0 +1,214 @@
+2021-10-29 12:50:38,662:INFO:Args:
+2021-10-29 12:50:38,663:INFO:--> enable_modelarts: False
+2021-10-29 12:50:38,663:INFO:--> network: resnext50
+2021-10-29 12:50:38,663:INFO:--> data_url: 
+2021-10-29 12:50:38,663:INFO:--> train_url: 
+2021-10-29 12:50:38,663:INFO:--> checkpoint_url: 
+2021-10-29 12:50:38,663:INFO:--> run_distribute: False
+2021-10-29 12:50:38,663:INFO:--> enable_profiling: False
+2021-10-29 12:50:38,663:INFO:--> data_path: dataset/1_2/train2
+2021-10-29 12:50:38,663:INFO:--> output_path: output/0
+2021-10-29 12:50:38,663:INFO:--> load_path: /cache/checkpoint_path/
+2021-10-29 12:50:38,663:INFO:--> device_target: Ascend
+2021-10-29 12:50:38,663:INFO:--> checkpoint_path: ./checkpoint/
+2021-10-29 12:50:38,664:INFO:--> checkpoint_file_path: 
+2021-10-29 12:50:38,664:INFO:--> image_size: [224, 224]
+2021-10-29 12:50:38,664:INFO:--> num_classes: 2388
+2021-10-29 12:50:38,664:INFO:--> batch_size: 4
+2021-10-29 12:50:38,664:INFO:--> lr: 0.2
+2021-10-29 12:50:38,664:INFO:--> lr_scheduler: cosine_annealing
+2021-10-29 12:50:38,664:INFO:--> lr_epochs: [30, 60, 90, 120]
+2021-10-29 12:50:38,664:INFO:--> lr_gamma: 0.1
+2021-10-29 12:50:38,664:INFO:--> eta_min: 0
+2021-10-29 12:50:38,664:INFO:--> T_max: 150
+2021-10-29 12:50:38,664:INFO:--> max_epoch: 150
+2021-10-29 12:50:38,664:INFO:--> warmup_epochs: 1
+2021-10-29 12:50:38,664:INFO:--> weight_decay: 0.0001
+2021-10-29 12:50:38,665:INFO:--> momentum: 0.9
+2021-10-29 12:50:38,665:INFO:--> is_dynamic_loss_scale: 0
+2021-10-29 12:50:38,665:INFO:--> loss_scale: 1024
+2021-10-29 12:50:38,665:INFO:--> label_smooth: 1
+2021-10-29 12:50:38,665:INFO:--> label_smooth_factor: 0.1
+2021-10-29 12:50:38,665:INFO:--> per_batch_size: 128
+2021-10-29 12:50:38,665:INFO:--> ckpt_interval: 5
+2021-10-29 12:50:38,665:INFO:--> ckpt_save_max: 5
+2021-10-29 12:50:38,665:INFO:--> is_save_on_master: 1
+2021-10-29 12:50:38,665:INFO:--> rank_save_ckpt_flag: 1
+2021-10-29 12:50:38,665:INFO:--> outputs_dir: output/0/2021-10-29_time_12_50_31
+2021-10-29 12:50:38,665:INFO:--> log_path: ./output_log
+2021-10-29 12:50:38,665:INFO:--> device_id: 0
+2021-10-29 12:50:38,666:INFO:--> width: 224
+2021-10-29 12:50:38,666:INFO:--> height: 224
+2021-10-29 12:50:38,666:INFO:--> file_name: resnext50
+2021-10-29 12:50:38,666:INFO:--> file_format: AIR
+2021-10-29 12:50:38,666:INFO:--> result_path: 
+2021-10-29 12:50:38,666:INFO:--> label_path: 
+2021-10-29 12:50:38,666:INFO:--> config_path: /home/ma-user/work/resnext/src/model_utils/../../default_config.yaml
+2021-10-29 12:50:38,666:INFO:--> rank: 0
+2021-10-29 12:50:38,666:INFO:--> group_size: 1
+2021-10-29 12:50:38,666:INFO:--> logger: <LOGGER mindversion (NOTSET)>
+2021-10-29 12:50:38,666:INFO:--> steps_per_epoch: 2694
+2021-10-29 12:50:38,666:INFO:
+2021-10-29 12:50:38,666:INFO:
+**********************************************************************
+**********************************************************************
+**
+**
+**        start create network
+**
+**
+**********************************************************************
+**********************************************************************
+
+2021-10-29 12:50:43,302:INFO:start network train...
+2021-10-29 12:59:42,444:INFO:epoch[0], iter[2693], loss:3.6828327, mean_fps:0.00imgs/sec
+2021-10-29 13:04:53,197:INFO:epoch[1], iter[5387], loss:2.8135805, mean_fps:1109.73imgs/sec
+2021-10-29 13:10:04,000:INFO:epoch[2], iter[8081], loss:2.4491358, mean_fps:1109.50imgs/sec
+2021-10-29 13:15:14,781:INFO:epoch[3], iter[10775], loss:2.3230658, mean_fps:1109.58imgs/sec
+2021-10-29 13:20:27,843:INFO:epoch[4], iter[13469], loss:2.4359403, mean_fps:1101.49imgs/sec
+2021-10-29 13:25:38,588:INFO:epoch[5], iter[16163], loss:2.126955, mean_fps:1109.70imgs/sec
+2021-10-29 13:30:49,381:INFO:epoch[6], iter[18857], loss:2.139882, mean_fps:1109.53imgs/sec
+2021-10-29 13:36:00,124:INFO:epoch[7], iter[21551], loss:2.3040676, mean_fps:1109.71imgs/sec
+2021-10-29 13:41:10,941:INFO:epoch[8], iter[24245], loss:2.1421053, mean_fps:1109.45imgs/sec
+2021-10-29 13:46:23,952:INFO:epoch[9], iter[26939], loss:2.3046284, mean_fps:1101.67imgs/sec
+2021-10-29 13:51:34,740:INFO:epoch[10], iter[29633], loss:2.3073535, mean_fps:1109.55imgs/sec
+2021-10-29 13:56:45,496:INFO:epoch[11], iter[32327], loss:2.2205582, mean_fps:1109.67imgs/sec
+2021-10-29 14:01:56,321:INFO:epoch[12], iter[35021], loss:2.3505154, mean_fps:1109.42imgs/sec
+2021-10-29 14:07:07,067:INFO:epoch[13], iter[37715], loss:1.981308, mean_fps:1109.70imgs/sec
+2021-10-29 14:12:19,985:INFO:epoch[14], iter[40409], loss:2.0833511, mean_fps:1101.99imgs/sec
+2021-10-29 14:17:30,721:INFO:epoch[15], iter[43103], loss:1.7583448, mean_fps:1109.74imgs/sec
+2021-10-29 14:22:41,495:INFO:epoch[16], iter[45797], loss:1.995851, mean_fps:1109.60imgs/sec
+2021-10-29 14:27:52,238:INFO:epoch[17], iter[48491], loss:2.0491197, mean_fps:1109.71imgs/sec
+2021-10-29 14:33:03,040:INFO:epoch[18], iter[51185], loss:2.1710505, mean_fps:1109.50imgs/sec
+2021-10-29 14:38:16,597:INFO:epoch[19], iter[53879], loss:2.281152, mean_fps:1099.75imgs/sec
+2021-10-29 14:43:27,347:INFO:epoch[20], iter[56573], loss:1.9593129, mean_fps:1109.69imgs/sec
+2021-10-29 14:48:38,108:INFO:epoch[21], iter[59267], loss:1.8409775, mean_fps:1109.65imgs/sec
+2021-10-29 14:53:48,841:INFO:epoch[22], iter[61961], loss:2.1528463, mean_fps:1109.75imgs/sec
+2021-10-29 14:58:59,557:INFO:epoch[23], iter[64655], loss:1.6931534, mean_fps:1109.80imgs/sec
+2021-10-29 15:04:12,633:INFO:epoch[24], iter[67349], loss:1.8992045, mean_fps:1101.44imgs/sec
+2021-10-29 15:09:23,344:INFO:epoch[25], iter[70043], loss:1.8683805, mean_fps:1109.83imgs/sec
+2021-10-29 15:14:34,104:INFO:epoch[26], iter[72737], loss:1.917384, mean_fps:1109.65imgs/sec
+2021-10-29 15:19:44,917:INFO:epoch[27], iter[75431], loss:1.8372829, mean_fps:1109.46imgs/sec
+2021-10-29 15:24:55,700:INFO:epoch[28], iter[78125], loss:1.9351202, mean_fps:1109.56imgs/sec
+2021-10-29 15:30:08,636:INFO:epoch[29], iter[80819], loss:1.9893966, mean_fps:1101.93imgs/sec
+2021-10-29 15:35:19,432:INFO:epoch[30], iter[83513], loss:2.056066, mean_fps:1109.52imgs/sec
+2021-10-29 15:40:30,183:INFO:epoch[31], iter[86207], loss:1.9859071, mean_fps:1109.68imgs/sec
+2021-10-29 15:45:40,974:INFO:epoch[32], iter[88901], loss:2.0315092, mean_fps:1109.54imgs/sec
+2021-10-29 15:50:51,726:INFO:epoch[33], iter[91595], loss:1.9752147, mean_fps:1109.68imgs/sec
+2021-10-29 15:56:05,113:INFO:epoch[34], iter[94289], loss:1.741394, mean_fps:1100.35imgs/sec
+2021-10-29 16:01:15,861:INFO:epoch[35], iter[96983], loss:1.9864048, mean_fps:1109.69imgs/sec
+2021-10-29 16:06:26,592:INFO:epoch[36], iter[99677], loss:1.785532, mean_fps:1109.75imgs/sec
+2021-10-29 16:11:37,325:INFO:epoch[37], iter[102371], loss:2.0232992, mean_fps:1109.74imgs/sec
+2021-10-29 16:16:48,075:INFO:epoch[38], iter[105065], loss:1.8810947, mean_fps:1109.68imgs/sec
+2021-10-29 16:22:01,198:INFO:epoch[39], iter[107759], loss:1.9537448, mean_fps:1101.28imgs/sec
+2021-10-29 16:27:12,011:INFO:epoch[40], iter[110453], loss:1.9879546, mean_fps:1109.46imgs/sec
+2021-10-29 16:32:22,754:INFO:epoch[41], iter[113147], loss:1.9384562, mean_fps:1109.71imgs/sec
+2021-10-29 16:37:33,505:INFO:epoch[42], iter[115841], loss:1.8112955, mean_fps:1109.68imgs/sec
+2021-10-29 16:42:44,235:INFO:epoch[43], iter[118535], loss:1.8922834, mean_fps:1109.75imgs/sec
+2021-10-29 16:47:57,564:INFO:epoch[44], iter[121229], loss:1.8497561, mean_fps:1100.55imgs/sec
+2021-10-29 16:53:08,390:INFO:epoch[45], iter[123923], loss:1.8876817, mean_fps:1109.42imgs/sec
+2021-10-29 16:58:19,116:INFO:epoch[46], iter[126617], loss:1.8184988, mean_fps:1109.77imgs/sec
+2021-10-29 17:03:29,804:INFO:epoch[47], iter[129311], loss:1.7269571, mean_fps:1109.90imgs/sec
+2021-10-29 17:08:40,515:INFO:epoch[48], iter[132005], loss:1.8650657, mean_fps:1109.82imgs/sec
+2021-10-29 17:13:53,685:INFO:epoch[49], iter[134699], loss:1.9731994, mean_fps:1101.11imgs/sec
+2021-10-29 17:19:04,500:INFO:epoch[50], iter[137393], loss:1.8800416, mean_fps:1109.46imgs/sec
+2021-10-29 17:24:15,278:INFO:epoch[51], iter[140087], loss:1.9726832, mean_fps:1109.58imgs/sec
+2021-10-29 17:29:25,988:INFO:epoch[52], iter[142781], loss:2.0195546, mean_fps:1109.83imgs/sec
+2021-10-29 17:34:36,708:INFO:epoch[53], iter[145475], loss:1.7930086, mean_fps:1109.79imgs/sec
+2021-10-29 17:39:50,006:INFO:epoch[54], iter[148169], loss:1.9493911, mean_fps:1100.66imgs/sec
+2021-10-29 17:45:00,830:INFO:epoch[55], iter[150863], loss:1.6871644, mean_fps:1109.42imgs/sec
+2021-10-29 17:50:11,570:INFO:epoch[56], iter[153557], loss:1.8939176, mean_fps:1109.72imgs/sec
+2021-10-29 17:55:22,313:INFO:epoch[57], iter[156251], loss:1.7205882, mean_fps:1109.71imgs/sec
+2021-10-29 18:00:33,024:INFO:epoch[58], iter[158945], loss:1.8813864, mean_fps:1109.82imgs/sec
+2021-10-29 18:05:46,203:INFO:epoch[59], iter[161639], loss:1.9802139, mean_fps:1101.08imgs/sec
+2021-10-29 18:10:56,987:INFO:epoch[60], iter[164333], loss:1.9286613, mean_fps:1109.57imgs/sec
+2021-10-29 18:16:07,747:INFO:epoch[61], iter[167027], loss:1.8083491, mean_fps:1109.65imgs/sec
+2021-10-29 18:21:18,468:INFO:epoch[62], iter[169721], loss:1.8173409, mean_fps:1109.79imgs/sec
+2021-10-29 18:26:29,207:INFO:epoch[63], iter[172415], loss:1.7884622, mean_fps:1109.73imgs/sec
+2021-10-29 18:31:42,180:INFO:epoch[64], iter[175109], loss:1.9004328, mean_fps:1101.81imgs/sec
+2021-10-29 18:36:52,919:INFO:epoch[65], iter[177803], loss:1.777182, mean_fps:1109.72imgs/sec
+2021-10-29 18:42:03,669:INFO:epoch[66], iter[180497], loss:1.8190749, mean_fps:1109.69imgs/sec
+2021-10-29 18:47:14,413:INFO:epoch[67], iter[183191], loss:1.9399676, mean_fps:1109.71imgs/sec
+2021-10-29 18:52:25,126:INFO:epoch[68], iter[185885], loss:1.8517938, mean_fps:1109.82imgs/sec
+2021-10-29 18:57:38,398:INFO:epoch[69], iter[188579], loss:1.9212148, mean_fps:1100.75imgs/sec
+2021-10-29 19:02:49,123:INFO:epoch[70], iter[191273], loss:1.6474863, mean_fps:1109.78imgs/sec
+2021-10-29 19:07:59,878:INFO:epoch[71], iter[193967], loss:1.6791072, mean_fps:1109.66imgs/sec
+2021-10-29 19:13:10,635:INFO:epoch[72], iter[196661], loss:1.7644308, mean_fps:1109.66imgs/sec
+2021-10-29 19:18:21,392:INFO:epoch[73], iter[199355], loss:1.6478329, mean_fps:1109.66imgs/sec
+2021-10-29 19:23:34,575:INFO:epoch[74], iter[202049], loss:1.6379007, mean_fps:1101.06imgs/sec
+2021-10-29 19:28:45,402:INFO:epoch[75], iter[204743], loss:1.7421205, mean_fps:1109.42imgs/sec
+2021-10-29 19:33:56,197:INFO:epoch[76], iter[207437], loss:1.8512015, mean_fps:1109.52imgs/sec
+2021-10-29 19:39:06,939:INFO:epoch[77], iter[210131], loss:1.8420203, mean_fps:1109.71imgs/sec
+2021-10-29 19:44:17,675:INFO:epoch[78], iter[212825], loss:1.6257112, mean_fps:1109.74imgs/sec
+2021-10-29 19:49:30,909:INFO:epoch[79], iter[215519], loss:1.768429, mean_fps:1100.89imgs/sec
+2021-10-29 19:54:41,653:INFO:epoch[80], iter[218213], loss:1.7532682, mean_fps:1109.71imgs/sec
+2021-10-29 19:59:52,381:INFO:epoch[81], iter[220907], loss:1.6954808, mean_fps:1109.76imgs/sec
+2021-10-29 20:05:03,106:INFO:epoch[82], iter[223601], loss:1.8182647, mean_fps:1109.77imgs/sec
+2021-10-29 20:10:13,854:INFO:epoch[83], iter[226295], loss:1.6821418, mean_fps:1109.69imgs/sec
+2021-10-29 20:15:27,112:INFO:epoch[84], iter[228989], loss:1.7422011, mean_fps:1100.80imgs/sec
+2021-10-29 20:20:37,924:INFO:epoch[85], iter[231683], loss:1.5999807, mean_fps:1109.47imgs/sec
+2021-10-29 20:25:48,701:INFO:epoch[86], iter[234377], loss:1.6894336, mean_fps:1109.59imgs/sec
+2021-10-29 20:30:59,528:INFO:epoch[87], iter[237071], loss:1.6151899, mean_fps:1109.41imgs/sec
+2021-10-29 20:36:10,244:INFO:epoch[88], iter[239765], loss:1.7120848, mean_fps:1109.80imgs/sec
+2021-10-29 20:41:23,628:INFO:epoch[89], iter[242459], loss:1.6964467, mean_fps:1100.36imgs/sec
+2021-10-29 20:46:34,441:INFO:epoch[90], iter[245153], loss:1.8502948, mean_fps:1109.47imgs/sec
+2021-10-29 20:51:45,186:INFO:epoch[91], iter[247847], loss:1.7346203, mean_fps:1109.70imgs/sec
+2021-10-29 20:56:56,013:INFO:epoch[92], iter[250541], loss:1.6581795, mean_fps:1109.41imgs/sec
+2021-10-29 21:02:06,779:INFO:epoch[93], iter[253235], loss:1.6210476, mean_fps:1109.63imgs/sec
+2021-10-29 21:07:20,097:INFO:epoch[94], iter[255929], loss:1.7443337, mean_fps:1100.59imgs/sec
+2021-10-29 21:12:30,874:INFO:epoch[95], iter[258623], loss:1.5324602, mean_fps:1109.59imgs/sec
+2021-10-29 21:17:41,639:INFO:epoch[96], iter[261317], loss:1.5895963, mean_fps:1109.63imgs/sec
+2021-10-29 21:22:52,360:INFO:epoch[97], iter[264011], loss:1.6410921, mean_fps:1109.79imgs/sec
+2021-10-29 21:28:03,092:INFO:epoch[98], iter[266705], loss:1.576343, mean_fps:1109.75imgs/sec
+2021-10-29 21:33:16,093:INFO:epoch[99], iter[269399], loss:1.4988515, mean_fps:1101.71imgs/sec
+2021-10-29 21:38:26,837:INFO:epoch[100], iter[272093], loss:1.5417701, mean_fps:1109.71imgs/sec
+2021-10-29 21:43:37,599:INFO:epoch[101], iter[274787], loss:1.6498162, mean_fps:1109.64imgs/sec
+2021-10-29 21:48:48,329:INFO:epoch[102], iter[277481], loss:1.6566145, mean_fps:1109.75imgs/sec
+2021-10-29 21:53:59,048:INFO:epoch[103], iter[280175], loss:1.5069935, mean_fps:1109.79imgs/sec
+2021-10-29 21:59:11,801:INFO:epoch[104], iter[282869], loss:1.6144973, mean_fps:1102.57imgs/sec
+2021-10-29 22:04:22,516:INFO:epoch[105], iter[285563], loss:1.5004978, mean_fps:1109.81imgs/sec
+2021-10-29 22:09:33,253:INFO:epoch[106], iter[288257], loss:1.5383232, mean_fps:1109.73imgs/sec
+2021-10-29 22:14:43,969:INFO:epoch[107], iter[290951], loss:1.4661223, mean_fps:1109.80imgs/sec
+2021-10-29 22:19:54,705:INFO:epoch[108], iter[293645], loss:1.6005788, mean_fps:1109.73imgs/sec
+2021-10-29 22:25:08,026:INFO:epoch[109], iter[296339], loss:1.4894426, mean_fps:1100.58imgs/sec
+2021-10-29 22:30:18,805:INFO:epoch[110], iter[299033], loss:1.443462, mean_fps:1109.58imgs/sec
+2021-10-29 22:35:29,550:INFO:epoch[111], iter[301727], loss:1.4035695, mean_fps:1109.70imgs/sec
+2021-10-29 22:40:40,238:INFO:epoch[112], iter[304421], loss:1.5129817, mean_fps:1109.90imgs/sec
+2021-10-29 22:45:50,933:INFO:epoch[113], iter[307115], loss:1.7140923, mean_fps:1109.88imgs/sec
+2021-10-29 22:51:04,433:INFO:epoch[114], iter[309809], loss:1.6252103, mean_fps:1099.95imgs/sec
+2021-10-29 22:56:15,200:INFO:epoch[115], iter[312503], loss:1.5347583, mean_fps:1109.62imgs/sec
+2021-10-29 23:01:25,949:INFO:epoch[116], iter[315197], loss:1.5050457, mean_fps:1109.69imgs/sec
+2021-10-29 23:06:36,662:INFO:epoch[117], iter[317891], loss:1.5450263, mean_fps:1109.81imgs/sec
+2021-10-29 23:11:47,376:INFO:epoch[118], iter[320585], loss:1.3706288, mean_fps:1109.81imgs/sec
+2021-10-29 23:17:00,692:INFO:epoch[119], iter[323279], loss:1.5619402, mean_fps:1100.59imgs/sec
+2021-10-29 23:22:11,570:INFO:epoch[120], iter[325973], loss:1.3299189, mean_fps:1109.24imgs/sec
+2021-10-29 23:27:22,399:INFO:epoch[121], iter[328667], loss:1.3221288, mean_fps:1109.41imgs/sec
+2021-10-29 23:32:33,174:INFO:epoch[122], iter[331361], loss:1.5228151, mean_fps:1109.60imgs/sec
+2021-10-29 23:37:43,941:INFO:epoch[123], iter[334055], loss:1.598408, mean_fps:1109.62imgs/sec
+2021-10-29 23:42:57,139:INFO:epoch[124], iter[336749], loss:1.3785654, mean_fps:1101.01imgs/sec
+2021-10-29 23:48:07,934:INFO:epoch[125], iter[339443], loss:1.4163679, mean_fps:1109.53imgs/sec
+2021-10-29 23:53:18,751:INFO:epoch[126], iter[342137], loss:1.4402121, mean_fps:1109.45imgs/sec
+2021-10-29 23:58:29,690:INFO:epoch[127], iter[344831], loss:1.4320687, mean_fps:1109.02imgs/sec
+2021-10-30 00:03:40,597:INFO:epoch[128], iter[347525], loss:1.3440468, mean_fps:1109.12imgs/sec
+2021-10-30 00:08:53,896:INFO:epoch[129], iter[350219], loss:1.4105215, mean_fps:1100.66imgs/sec
+2021-10-30 00:14:04,612:INFO:epoch[130], iter[352913], loss:1.3132887, mean_fps:1109.81imgs/sec
+2021-10-30 00:19:15,356:INFO:epoch[131], iter[355607], loss:1.3598912, mean_fps:1109.70imgs/sec
+2021-10-30 00:24:26,074:INFO:epoch[132], iter[358301], loss:1.3677408, mean_fps:1109.80imgs/sec
+2021-10-30 00:29:36,863:INFO:epoch[133], iter[360995], loss:1.3430485, mean_fps:1109.54imgs/sec
+2021-10-30 00:34:50,138:INFO:epoch[134], iter[363689], loss:1.3063165, mean_fps:1100.74imgs/sec
+2021-10-30 00:40:00,913:INFO:epoch[135], iter[366383], loss:1.2737817, mean_fps:1109.60imgs/sec
+2021-10-30 00:45:11,653:INFO:epoch[136], iter[369077], loss:1.3654864, mean_fps:1109.72imgs/sec
+2021-10-30 00:50:22,368:INFO:epoch[137], iter[371771], loss:1.2691808, mean_fps:1109.81imgs/sec
+2021-10-30 00:55:33,061:INFO:epoch[138], iter[374465], loss:1.3227994, mean_fps:1109.88imgs/sec
+2021-10-30 01:00:46,364:INFO:epoch[139], iter[377159], loss:1.2467444, mean_fps:1100.64imgs/sec
+2021-10-30 01:05:57,159:INFO:epoch[140], iter[379853], loss:1.3295043, mean_fps:1109.53imgs/sec
+2021-10-30 01:11:07,896:INFO:epoch[141], iter[382547], loss:1.2456913, mean_fps:1109.73imgs/sec
+2021-10-30 01:16:18,601:INFO:epoch[142], iter[385241], loss:1.2533932, mean_fps:1109.84imgs/sec
+2021-10-30 01:21:29,327:INFO:epoch[143], iter[387935], loss:1.3173218, mean_fps:1109.77imgs/sec
+2021-10-30 01:26:42,703:INFO:epoch[144], iter[390629], loss:1.2730906, mean_fps:1100.38imgs/sec
+2021-10-30 01:31:53,504:INFO:epoch[145], iter[393323], loss:1.263724, mean_fps:1109.51imgs/sec
+2021-10-30 01:37:04,276:INFO:epoch[146], iter[396017], loss:1.2650816, mean_fps:1109.60imgs/sec
+2021-10-30 01:42:14,990:INFO:epoch[147], iter[398711], loss:1.2894661, mean_fps:1109.81imgs/sec
+2021-10-30 01:47:25,706:INFO:epoch[148], iter[401405], loss:1.2900605, mean_fps:1109.80imgs/sec
+2021-10-30 01:52:39,014:INFO:epoch[149], iter[404099], loss:1.2679514, mean_fps:1100.63imgs/sec
+2021-10-30 01:52:39,158:INFO:end network train...

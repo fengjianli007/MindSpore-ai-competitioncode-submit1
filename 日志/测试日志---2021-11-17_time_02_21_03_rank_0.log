@@ -1,0 +1,69 @@
+2021-11-17 02:21:03,662:INFO:Args:
+2021-11-17 02:21:03,662:INFO:--> enable_modelarts: False
+2021-11-17 02:21:03,662:INFO:--> network: resnext50
+2021-11-17 02:21:03,662:INFO:--> data_url: 
+2021-11-17 02:21:03,662:INFO:--> train_url: 
+2021-11-17 02:21:03,662:INFO:--> checkpoint_url: 
+2021-11-17 02:21:03,662:INFO:--> run_distribute: False
+2021-11-17 02:21:03,662:INFO:--> enable_profiling: False
+2021-11-17 02:21:03,662:INFO:--> data_path: ./test/testall/test2/
+2021-11-17 02:21:03,662:INFO:--> output_path: output/1
+2021-11-17 02:21:03,663:INFO:--> load_path: /cache/checkpoint_path/
+2021-11-17 02:21:03,663:INFO:--> device_target: Ascend
+2021-11-17 02:21:03,663:INFO:--> checkpoint_path: ./checkpoint/
+2021-11-17 02:21:03,663:INFO:--> checkpoint_file_path: ./output/0/2021-10-29_time_12_50_31/ckpt_0/0-150_2694.ckpt
+2021-11-17 02:21:03,663:INFO:--> image_size: [224, 224]
+2021-11-17 02:21:03,663:INFO:--> num_classes: 2388
+2021-11-17 02:21:03,663:INFO:--> batch_size: 4
+2021-11-17 02:21:03,663:INFO:--> lr: 0.0002
+2021-11-17 02:21:03,663:INFO:--> lr_scheduler: cosine_annealing
+2021-11-17 02:21:03,663:INFO:--> lr_epochs: [10, 40, 70]
+2021-11-17 02:21:03,663:INFO:--> lr_gamma: 0.1
+2021-11-17 02:21:03,663:INFO:--> eta_min: 0
+2021-11-17 02:21:03,663:INFO:--> T_max: 80
+2021-11-17 02:21:03,664:INFO:--> max_epoch: 150
+2021-11-17 02:21:03,664:INFO:--> warmup_epochs: 1
+2021-11-17 02:21:03,664:INFO:--> weight_decay: 0.0001
+2021-11-17 02:21:03,664:INFO:--> momentum: 0.9
+2021-11-17 02:21:03,664:INFO:--> is_dynamic_loss_scale: 0
+2021-11-17 02:21:03,664:INFO:--> loss_scale: 1024
+2021-11-17 02:21:03,664:INFO:--> label_smooth: 1
+2021-11-17 02:21:03,664:INFO:--> label_smooth_factor: 0.1
+2021-11-17 02:21:03,664:INFO:--> per_batch_size: 1
+2021-11-17 02:21:03,664:INFO:--> ckpt_interval: 5
+2021-11-17 02:21:03,664:INFO:--> ckpt_save_max: 5
+2021-11-17 02:21:03,664:INFO:--> is_save_on_master: 1
+2021-11-17 02:21:03,664:INFO:--> rank_save_ckpt_flag: 0
+2021-11-17 02:21:03,664:INFO:--> outputs_dir: ./output_log/2021-11-17_time_02_21_03
+2021-11-17 02:21:03,665:INFO:--> log_path: ./output_log
+2021-11-17 02:21:03,665:INFO:--> device_id: 0
+2021-11-17 02:21:03,665:INFO:--> width: 224
+2021-11-17 02:21:03,665:INFO:--> height: 224
+2021-11-17 02:21:03,665:INFO:--> file_name: resnext50
+2021-11-17 02:21:03,665:INFO:--> file_format: AIR
+2021-11-17 02:21:03,665:INFO:--> result_path: 
+2021-11-17 02:21:03,665:INFO:--> label_path: 
+2021-11-17 02:21:03,665:INFO:--> config_path: /home/ma-user/work/resnext/src/model_utils/../../default_config.yaml
+2021-11-17 02:21:03,665:INFO:--> rank: 0
+2021-11-17 02:21:03,665:INFO:--> group_size: 1
+2021-11-17 02:21:03,665:INFO:--> logger: <LOGGER mindversion (NOTSET)>
+2021-11-17 02:21:03,665:INFO:
+2021-11-17 02:21:03,666:INFO:
+**********************************************************************
+**********************************************************************
+**
+**
+**        start create network
+**
+**
+**********************************************************************
+**********************************************************************
+
+2021-11-17 02:21:08,684:INFO:load model ./output/0/2021-10-29_time_12_50_31/ckpt_0/0-150_2694.ckpt success
+2021-11-17 02:38:48,276:INFO:Inference Performance: 40.77 img/sec
+2021-11-17 02:38:48,277:INFO:before results=[[38002], [39257], [39457]]
+2021-11-17 02:38:48,278:INFO:after results=[[38002]
+ [39257]
+ [39457]]
+2021-11-17 02:38:48,279:INFO:after allreduce eval: top1_correct=38002, tot=39457,acc=96.31%(TOP1)
+2021-11-17 02:38:48,279:INFO:after allreduce eval: top5_correct=39257, tot=39457,acc=99.49%(TOP5)
